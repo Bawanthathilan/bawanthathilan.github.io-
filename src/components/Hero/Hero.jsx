@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import './hero.css'
 import CV from '../../assets/Bawantha_Rathnayaka.pdf'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import {
   FaBeer,
@@ -14,6 +16,10 @@ import {
 
 const Hero = () => {
   const pathRef = useRef()
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
 
   useEffect(() => {
     let path = pathRef.current
@@ -53,7 +59,7 @@ const Hero = () => {
       </div>
 
       <div className='hero_header'>
-        <div className='hero_contents'>
+        <div className='hero_contents' data-aos='fade-up'>
           <h1>Hi I'm Bawantha</h1>
           <p>Software Developer | Designer | Traveller | Blogger</p>
           <div className='social-icons'>
@@ -78,7 +84,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className='hero_image'>
+        <div className='hero_image' data-aos='fade-up'>
           <img
             src='https://avatars.githubusercontent.com/u/38850236?v=4'
             alt=''

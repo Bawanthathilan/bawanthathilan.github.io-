@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './about.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 //icon
 import {
@@ -13,11 +15,14 @@ import {
 import { DiMongodb } from 'react-icons/di'
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 })
+  }, [])
   return (
-    <div className='about_container' id='about'>
+    <div className='about_container' id='about' data-aos='fade-left'>
       <h1>About Me ./</h1>
       {/* <p>About Me</p> */}
-      <article>
+      <article data-aos='fade-up'>
         Hello! I'm Bawantha Thilan, from SriLanka I am a creative, time
         punctual, dedicated, goal-oriented individual with decent moral Values
         and Ethicates along with a high-energy level, honed communication
@@ -33,7 +38,6 @@ const About = () => {
             <FaGithub />
             <FaCss3 />
             <FaHtml5 />
-            
           </div>
         </div>
       </article>

@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './work.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Work = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
-    <div className='work_container'>
+    <div className='work_container' data-aos='fade-up'>
       <div class='column-1'>
         <h2>My Experience ./</h2>
-        <table class='table-style'>
+        <table class='table-style' data-aos='fade-right'>
           <tr>
             <td>Full Stack Developer</td>
             <td>Apium Innovations</td>
@@ -22,7 +27,6 @@ const Work = () => {
             <td>Tresurer</td>
             <td>2020-2021</td>
           </tr>
-         
         </table>
       </div>
     </div>

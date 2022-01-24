@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './achivements.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Achivements = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
-    <div className='achivements_container' id='Achievements'>
+    <div className='achivements_container' id='Achievements' data-aos='fade-up'>
       <h1>Achievements./</h1>
 
       <section id='timeline'>

@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './projects.css'
 import ProjectsData from '../../Data/Projects/Project.js'
 import Card from '../Card/Card'
-
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
-    <div className='projects_container' id='projects'>
+    <div className='projects_container' id='projects' data-aos='fade-up'>
       <h1 className='project_header'>Projects ./</h1>
 
       <div className='card_container'>
