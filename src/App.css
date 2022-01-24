@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap');
+@font-face {
+  font-family: 'Product Sans', sans-serif;
+  src: url(./assets/Fonts/ProductRegular.ttf);
+  src: url(./assets/Fonts/ProductSansBold.ttf);
+  src: url(./assets/Fonts/ProductSansBoldItalic.ttf);
+  src: url(./assets/Fonts/ProductSansItalic.ttf);
+}
+
 :root {
   --primary-color: #222831;
   --secondary-color: #393e46;
@@ -6,7 +15,7 @@
 }
 
 * {
-  font-family: Product Sans;
+  font-family: 'Product Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
