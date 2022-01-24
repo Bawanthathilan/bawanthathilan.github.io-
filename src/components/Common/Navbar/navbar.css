@@ -114,6 +114,10 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+  .header__navbar-links_logo img {
+    width: 40px;
+    height: auto;
+  }
   .header__navbar {
     padding: 2rem;
   }
