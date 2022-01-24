@@ -8,6 +8,19 @@
   font-size: 5rem;
 }
 
+.conatct-info h1::before {
+  content: 'Contact';
+  position: absolute;
+  z-index: -1;
+  color: rgb(197, 197, 197);
+  margin-top: -110px;
+  transform: rotate(-90deg);
+  left: 10%;
+  white-space: nowrap;
+
+  font-size: 10rem;
+}
+
 .conatct-info h2 {
   color: var(--primary-color);
   font-size: 3rem;
