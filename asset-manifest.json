@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4e2a3ce.css",
+    "main.css": "/static/css/main.02331386.css",
     "main.js": "/static/js/main.fb3a5062.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Bawantha_Rathnayaka.pdf": "/static/media/Bawantha_Rathnayaka.f54061856579a9e863e1.pdf",
     "static/media/logo.png": "/static/media/logo.40f18f6e6370c39ff44b.png",
     "index.html": "/index.html",
-    "main.d4e2a3ce.css.map": "/static/css/main.d4e2a3ce.css.map",
+    "main.02331386.css.map": "/static/css/main.02331386.css.map",
     "main.fb3a5062.js.map": "/static/js/main.fb3a5062.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4e2a3ce.css",
+    "static/css/main.02331386.css",
     "static/js/main.fb3a5062.js"
   ]
 }
