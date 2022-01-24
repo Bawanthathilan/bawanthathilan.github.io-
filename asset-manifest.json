@@ -1,21 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f171d41.css",
+    "main.css": "/static/css/main.aaa50f39.css",
     "main.js": "/static/js/main.144e35ad.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Bawantha_Rathnayaka.pdf": "/static/media/Bawantha_Rathnayaka.f54061856579a9e863e1.pdf",
     "static/media/logo.png": "/static/media/logo.40f18f6e6370c39ff44b.png",
-    "static/media/ProductSansItalic.ttf": "/static/media/ProductSansItalic.9f3855791ace888bfd09.ttf",
-    "static/media/ProductSansBoldItalic.ttf": "/static/media/ProductSansBoldItalic.014fb88cf36e7fc14acb.ttf",
-    "static/media/ProductSansBold.ttf": "/static/media/ProductSansBold.53df38d5491afbeb42a5.ttf",
-    "static/media/ProductRegular.ttf": "/static/media/ProductRegular.d165384076551a756b3c.ttf",
     "index.html": "/index.html",
-    "main.4f171d41.css.map": "/static/css/main.4f171d41.css.map",
+    "main.aaa50f39.css.map": "/static/css/main.aaa50f39.css.map",
     "main.144e35ad.js.map": "/static/js/main.144e35ad.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f171d41.css",
+    "static/css/main.aaa50f39.css",
     "static/js/main.144e35ad.js"
   ]
 }
