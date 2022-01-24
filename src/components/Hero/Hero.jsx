@@ -9,6 +9,7 @@ import {
   FaGithub,
   FaInstagram,
   FaTwitch,
+  FaTwitterSquare,
 } from 'react-icons/fa'
 
 const Hero = () => {
@@ -56,19 +57,19 @@ const Hero = () => {
           <h1>Hi I'm Bawantha</h1>
           <p>Software Developer | Designer | Traveller | Blogger</p>
           <div className='social-icons'>
-            <a href='#'>
+            <a href='https://www.facebook.com/bawanthathilan'>
               <FaFacebook />
             </a>
-            <a href='#'>
-              <FaTwitch />
+            <a href='https://twitter.com/ThilanBawantha'>
+              <FaTwitterSquare />
             </a>
-            <a href='#'>
+            <a href='https://www.instagram.com/bawwa_/'>
               <FaInstagram />
             </a>
-            <a href='#'>
+            <a href='https://github.com/Bawanthathilan'>
               <FaGithub />
             </a>
-            <a href='#'>
+            <a href='https://codepen.io/bawantharathnayakasliit'>
               <FaCodepen />
             </a>
           </div>
