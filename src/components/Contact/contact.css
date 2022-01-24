@@ -25,6 +25,10 @@
 }
 
 @media screen and (max-width: 490px) {
+  .contact_container {
+    display: grid;
+    place-items: center;
+  }
   .conatct-info h1 {
     font-size: 2rem;
   }
