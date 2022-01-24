@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='header__navbar-sign'>
-        <a href='mailto:bawantharathnayaka@gmail.com'>
+        <a href='#contact'>
           <button type='button'>Contact</button>
         </a>
       </div>

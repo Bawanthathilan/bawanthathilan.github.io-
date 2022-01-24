@@ -1,0 +1,36 @@
+.contact_container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.conatct-info h1 {
+  font-size: 5rem;
+}
+
+.conatct-info h2 {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .conatct-info h1 {
+    font-size: 2rem;
+  }
+
+  .conatct-info h2 {
+    color: var(--primary-color);
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .conatct-info h1 {
+    font-size: 2rem;
+  }
+
+  .conatct-info h2 {
+    color: var(--primary-color);
+    font-size: 1rem;
+  }
+}
