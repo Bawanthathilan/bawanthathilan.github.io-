@@ -8,7 +8,7 @@ const Work = () => {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <div className='work_container' data-aos='fade-up'>
+    <div className='work_container' data-aos='fade-up' id='work'>
       <div class='column-1'>
         <h2>My Experience ./</h2>
         <table class='table-style' data-aos='fade-right'>

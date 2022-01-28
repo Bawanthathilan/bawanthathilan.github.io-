@@ -13,12 +13,12 @@
   position: absolute;
   z-index: -1;
   color: rgb(197, 197, 197);
-  margin-top: -110px;
+  margin-top: -10px;
   transform: rotate(-90deg);
   left: 10%;
   white-space: nowrap;
 
-  font-size: 10rem;
+  font-size: 5rem;
 }
 
 .conatct-info h1::after {
