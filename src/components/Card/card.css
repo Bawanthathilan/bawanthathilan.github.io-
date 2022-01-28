@@ -4,6 +4,7 @@
   background-color: var(--primary-color);
   border-radius: 10px;
 }
+
 .card-content {
   display: flex;
 

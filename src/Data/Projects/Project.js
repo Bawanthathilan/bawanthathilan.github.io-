@@ -1,18 +1,19 @@
+import Lumoz from '../../assets/lumoz.png'
+import pharmacy from '../../assets/pharmacy.png'
+
 const ProjectsData = [
   {
     id: 1,
     Name: 'Lumoz Studio',
 
-    Image:
-      'https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
+    Image: Lumoz,
     url: 'https://lumoz-v2.web.app/',
-    desc: 'Research on a Realtime AR based tool for digital media production. A tool whic helps digital media creators for creating their content with high graphical effects like AR. This project won Merit Award at National ICT Awards (NBQSA) 2021  ',
+    desc: 'Research on a Realtime AR based tool for digital media production. A tool which helps digital media creators for creating their content with high graphical effects like AR. This project won Merit Award at National ICT Awards (NBQSA) 2021  ',
   },
   {
     id: 2,
     Name: 'Pharmacy management System',
-    Image:
-      'https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
+    Image: pharmacy,
     url: 'https://github.com/Bawanthathilan/Pharamacy-Management-System',
     desc: 'Pharamacy management System using jsp servlet.',
   },

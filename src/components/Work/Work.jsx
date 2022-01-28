@@ -13,7 +13,12 @@ const Work = () => {
         <h2>My Experience ./</h2>
         <table class='table-style' data-aos='fade-right'>
           <tr>
-            <td>Full Stack Developer</td>
+            <td>Associate Software Engineer</td>
+            <td>OREL IT</td>
+            <td>2021 - Current</td>
+          </tr>
+          <tr>
+            <td>Intern Software Engineer</td>
             <td>Apium Innovations</td>
             <td>2019 - 2020</td>
           </tr>
